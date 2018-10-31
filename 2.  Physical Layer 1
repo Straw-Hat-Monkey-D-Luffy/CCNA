@@ -1,0 +1,61 @@
+
+Physical Layer
+
+Thing that you can touch
+ex.
+	1. cable
+		x-based t-cabling(ethernet cabling)
+		x=speed
+		base=baseband
+		T= twisted
+		ex.
+		   10,100,1000(x)
+			  - 10 Mbit/s
+			  - 100 Mbit/s
+			  - 100 Mbit/s or 1Gbit/speed
+			  
+			baseband
+				- only one base , one function
+				- broadband opposite w/c is use at home 
+				with multiple function.ex phone ,TV , net
+			  
+			cat 3, cat 4,cat 5(T)
+				- more number more twist per meter
+				- more twist means more copper
+				- more copper means clearer signal
+				
+		2 flavors x-based t-cabling 
+		1. straight through - different device type will use straight through cable between them.
+				ex computer and switch, router and switch
+				
+		2. crossover - similar device type will use crossover cable between them.
+				ex switch and switch, router and router , pc internet and a router internet
+				
+		2 types of x-based t-cable
+		1. Shielded twisted pair - only use in place where there might be electromagnetic interference.
+							ex ref, a/c if you run a unshielded behind ref or a/c which produce electromagnetic
+							you might have signal degradation.
+							
+									
+		2. unshielded twisted pair
+		
+		3. serial cable - v.35 cable
+						- other cable that need to remember.
+						- serial cable is connected to a serial port on a router. so between
+						router and another router youll run a serial cable.
+						
+		4. rollover cables - console cables
+						   - from console port of a cisco device to communication port of the PC
+						   then you will open up a terminal emulation program such as tera term or putty.
+						
+		
+	2. repeater
+				- repeats the signal so the it wont be degrade
+				100meter ----repeater ----signal repeat for another 100m
+		
+	3. hubs - hub is nothing more than a multi mode repeater.
+			- hub will flood the signal out on all other ports except the one that originated the signal.
+	
+	Note: Router - works network layer 3
+				and all network below w/cable
+				is data-link and physical.

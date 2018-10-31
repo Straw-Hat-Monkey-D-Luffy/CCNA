@@ -1,0 +1,22 @@
+OSI( Open System Interconnect)
+Introduction
+
+Layers
+7	Application
+6	Presentation
+5	Session
+4	Transport
+3	Network
+2	Data-link
+1	Physical
+	
+NOTE : As a network engineer with CCNA,
+your life will revolve around the
+2,3,and 4
+
+	Layer 1 is cable guy.
+
+	A little application layer stuff
+
+	5 nd 6 unless youre a programmer has nothing 
+to do with you
