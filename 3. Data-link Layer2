@@ -1,0 +1,74 @@
+Data link Layer 2
+
+NOte : try to move away from saying the layer name instead
+	use the number ex. layer 2 instead of data link layer.
+	Because layer 2 is use by more experience people.
+	
+	Datalink layer - controls communication on the immediate  link
+				between  two devices or immediate as the names says,
+				the immediate Data link.
+				
+				- control communication between one device and the next 
+				immediately connected device.
+				
+				circle represent a router.
+				thunder bolt meas its a serial connection
+				serial connection are your wide area links
+				
+				router -> router 
+				router serail port <--> serail port router
+				
+				- controls communication  on the immediate link between two devices.
+				
+				What does the data at layer 1 looks like?
+				- simply electricity, electrical signal or changes in voltage.
+				- set of structure is called PDU
+				
+				Now in layer 2 the data has been put into a set structure.
+				PDU - Protocol Data Unit
+					- set structure.
+					- at layer 2 the Protocol Data Unit is called a FRAME
+					
+				at layer 2 you need a addressing scheme.
+				Media Access Control Address( MAC address)
+				MAC - 48 bit in length
+					- and its written in hexadecimal
+					
+				HexNumbers - 1 to 9, A through F
+							A = 10
+							B = 11
+							C = 12
+							D = 13
+							E = 14
+							F = 15
+							
+				MAC address ex  002A.ABCD.1234
+					- each one of the character is 4 bits 
+					
+				OUI Field - Organizationally Unique Identifier.
+						  - The 1st 24 bits of the MAC address.
+						  - is designated by goverment body and is cannot be changed.
+						  and its vendor specific.
+						  
+				Vendor - cisco , microsoft, dell. each one of this vendors are assigned several
+						OUI and these OUI cannot be change.
+						- the last 24 bits of MAC address, the vendor can do whatever they want with them.
+						
+				UL bit - Universal Local bit
+					   - significant bit, most significant mean all the way tot he left. 
+					   - resides on 2nd 4 bits .
+					   - if that bit is turned oFF or second 4 bit is in zero(0). it means
+					   the MAC address is universally unique. There wont be any other MAC address
+					   like this in theory.
+					   - If in any reason that the 2nd bit is turned on , it means that the address is 
+					   assigned locally.
+					   to turn on
+					   
+					   002A.ABCD.1234
+					   022A.ABCD.1234
+					
+					  
+						 
+				
+				
+				
